@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+ 	<meta name="description" content="Demonstrates some basic HTML form elements">
+    <meta name="Keywords" content="HTML,CSS,Javascript">
+    <meta name="author" content="Kayes Ahmed">
+	<title>CWA Help Desk Appointment</title>
+</head>
+<body>
+	<a href="https://www.swin.edu.au"><img src="logo.png" alt="Swinburne Univerity of Technology Logo"></a>
+	<h1>CWA Help Desk Appointment</h1>
+
+	<form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+
+
+		<fieldset>
+			<legend>Student details</legend>
+			<p>
+				<lebel for="studentid" >Student ID</lebel>
+               <input type="number" pattern="a{7,10}" name="studentid" id="studentid" required="required" >
+			</p>
+			<p>
+		<lebel for="givenname">Given Name</lebel>
+               <input type="text" name="givenname" required="required"  maxlength="15">
+
+               <lebel for="familyname">Family Name</lebel>
+               <input type="text" name="familyname" id="familyname" maxlength="15" required="required">
+			</p>
+		</fieldset>
+
+<!---- This HTML from was marked up
+       By Kayes Ahmed
+       Student ID : 103832293@swin.edu.au
+ ------>
+
+		<fieldset>
+			<legend>Your unit</legend>
+			<p>
+                <input type="radio" id="cos1011" name="yourunit" value="COS1011"/>
+				<label for="cos1011">COS1011</label> 
+				
+			<input type="radio" id="cos6004" name="yourunit" value="COS6004"/>
+			<label for="cos6004">COS6004</label> 
+				
+            <input type="radio" id="cos6007" name="yourunit" value="COS6007"/>
+			<label for="cos6007">COS6007</label> 
+				
+			</p>
+			<p><label for="yourtutor">Your Tutor</label> 
+			<select name="yourtutor" id="yourtutor" required="required">
+				<option value="">Please Select</option>
+				<option value="Dr. Eureka Priyadarshani">Dr. Eureka Priyadarshani</option>			
+				<option value="Fatma Mohammed">Fatma Mohammed</option>
+				<option value="Jingwen Zhou">Jingwen Zhou</option>
+				<option value="Liang Yuan">Liang Yuan</option>
+				<option value="Dr. Grace Tao">Dr. Grace Tao</option>
+				
+				
+			</select>
+		</p>
+
+		</fieldset>
+		<fieldset>
+			<legend>Issue</legend>
+			<p><label>HTML</label> 
+				<input checked="checked" type="checkbox">
+			    <label>CSS</label> 
+				<input  type="checkbox">
+				<label>JavaScript</label> 
+				<input  type="checkbox">
+				<label>PHP</label>
+				<input type="checkbox">
+				<label>MySQL</label>
+				<input  type="checkbox">
+			</p>
+			<p>Description of Issue</p>
+			<textarea  placeholder="write description of your problem here..." ></textarea>
+
+
+		</fieldset>
+
+		<fieldset> 
+	    <legend>Preferred Date/Time</legend>
+		<p>
+		<label>Date</label>
+        <input type="date" >
+        </p>
+        <p>
+        <label>Time</label>
+        <input  type="time">
+        </p>
+		</fieldset>
+		<button type="submit" value="book">Book</button>
+		<button type="reset" value="reset form">Reset form</button>
+
+        
+	</form>
+
+	
+
+</body>
+</html>
