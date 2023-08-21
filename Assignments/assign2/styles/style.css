@@ -1,0 +1,192 @@
+
+/* 
+filename: Style Css
+author: Aung Pyae Phyo Shan,Md Nahid, Kayes Ahmed , Sami ,Md Shakib Shahriar
+created: 30/03/2022 
+last modified: 10/04/2022 
+*/
+*{
+
+	font-family: 'Poppins', sans-serif ;
+	padding: 0;
+	margin: 0;
+
+
+}
+
+body{
+	background: #f2f2f2;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+#menu{
+
+   height: 80px;
+   display:flex;
+   align-items: center;
+   background-color:#1C2935 ;
+   padding:10px;
+   position: relative;
+   z-index: 2;
+
+  
+}
+
+#menu ul{
+    
+    justify-content: space-between;
+    margin-left:600px;
+    display:flex;
+	list-style:row;
+	
+}
+
+
+
+#menu ul li{
+    
+
+    list-style: none;
+	width:fit-content;
+	margin: 5px 10px;
+	text-transform: uppercase;
+	color: yellowgreen;
+	padding: 15px 35px 15px 35px;
+
+}
+#menu ul li:hover{
+
+	background:#2bab0d ;
+	border-radius: 5px;
+	padding: 15px 35px 15px 35px;
+	
+
+
+}
+.active{
+
+	background:#2bab0d ;
+	border-radius: 5px;
+}
+
+#menu ul li a{
+	
+	text-decoration: none;
+	color: white;
+}
+
+
+#menu ul li a:hover{
+
+	cursor: pointer;
+	
+}
+.enh{
+	text-align: center;
+	padding-right: 20px;
+}
+
+
+
+.p{
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+.content{
+	
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: #fff;
+    font-family: monospace;
+    padding: 50px 40px 50px 50px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.content ul li{
+
+	font-size: 20px;
+}
+
+
+
+.content b{
+	color: #2BAB0D;
+}
+
+
+
+.nodejs_logo{
+    
+    background: #fff;
+    border: 5px solid black;
+	margin-top: 20px;
+	margin-left:20px;
+	margin-right: 900px;
+	
+}
+
+footer {
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: #1C2935;
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    -webkit-box-shadow: 0px -4px 6px 1px rgba(0,0,0,0.09); 
+    box-shadow: 0px -4px 6px 1px rgba(0,0,0,0.09);
+    clear: both;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+}
+
+footer a:hover {
+    font-weight: 400;
+}
+
+.youtube_video{
+
+	border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: #fff;
+    font-family: monospace;
+    padding: 50px 40px 50px 50px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+
+
+}
+
+.youtube_video b{
+	 color:#2BAB0D ;
+
+}
+
+.youtube_video p{
+
+	text-align: center;
+	font-size: 25px;
+	font-family: cursive;
+	color: darkgreen;
+
+}
+.youtube_video p a {
+	color: yellowgreen;
+}

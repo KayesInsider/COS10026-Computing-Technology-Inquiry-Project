@@ -1,0 +1,91 @@
+
+/* 
+filename: topic_style.css
+author: Aung Pyae Phyo Shan,Md Nahid, Kayes Ahmed , Sami ,Md Shakib Shahriar
+created: 30/03/2022 
+last modified: 10/04/2022 
+*/
+
+.topic_content{
+
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align:justify;
+}
+
+.topic_content p{
+
+	font-family: 'Ralway', sans-serif;
+	font-size: 17px ;
+	line-height: 1.5em;
+}
+
+aside{
+	width: 30%;
+	float: right;
+}
+.heading{
+    
+    text-shadow:5px 2x;
+    border-radius: 7px;
+	background: #80de33;
+	padding: 26px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.foot_notes{
+
+	color: blue;
+}
+
+table{
+	margin-top:20px ;
+}
+table th{
+
+	background:purple ;
+	padding: 25px;
+	color: white;
+	font-size: 18px;
+}
+
+table td{
+
+	background:skyblue;
+	padding: 15px;
+
+}
+
+#img_1{
+
+	border: 15px solid yellowgreen;
+}
+
+#Ryan_Dahl{
+
+	margin-left: 40px;
+	border: 15px solid yellowgreen;
+
+}
+#Ryan{
+    margin-left: 40px;
+    padding: 8px;
+    padding-right:;
+    border: 2px solid yellowgreen;
+	
+}
+#source{
+
+	font-size: 13px;
+	font-style: bold;
+}
+.source_link{
+
+  color: blue;
+  font-size:12px;
+}
+
+.lists{
+
+	margin-left: 100px;
+}

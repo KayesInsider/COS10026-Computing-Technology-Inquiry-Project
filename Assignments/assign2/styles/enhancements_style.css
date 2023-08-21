@@ -1,0 +1,42 @@
+/* 
+filename: enhancement_style.css
+author: Aung Pyae Phyo Shan,Md Nahid, Kayes Ahmed , Sami ,Md Shakib Shahriar
+created: 30/03/2022 
+last modified: 10/04/2022 
+*/
+
+*{
+
+	font-family: 'Poppins', sans-serif ;
+
+
+}
+
+
+body{
+	background: #f2f2f2;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+
+
+
+footer{
+	width:100%; 
+	position:absolute;
+	background:#1C2935 ;
+	
+	
+}
+
+
+
+
+
+
+
+
